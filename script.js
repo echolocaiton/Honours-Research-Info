@@ -6,7 +6,7 @@
 
   // Active nav state via IntersectionObserver
   const navAnchors = document.querySelectorAll('a[data-nav]');
-  const sections = ['conference','platform','microscribe','ai','sls','ultrasound','about'].map(id => document.getElementById(id));
+  const sections = ['conference','honours-results','platform','apica','microscribe','ai','sls','ultrasound','about'].map(id => document.getElementById(id));
   const topNavLinks = document.querySelectorAll('nav.nav-links a');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
